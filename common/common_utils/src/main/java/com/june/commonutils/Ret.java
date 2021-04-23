@@ -35,22 +35,22 @@ public class Ret {
      *成功的静态方法
      */
     public static Ret ok() {
-        Ret r = new Ret();
-        r.setSuccess(true);
-        r.setCode(ResultCode.SUCCESS);
-        r.setMessage("成功");
-        return r;
+        Ret ret = new Ret();
+        ret.setSuccess(true);
+        ret.setCode(ResultCode.SUCCESS);
+        ret.setMessage("成功");
+        return ret;
     }
 
     /*
      *失败的静态方法
      */
     public static Ret error() {
-        Ret r = new Ret();
-        r.setSuccess(false);
-        r.setCode(ResultCode.ERROR);
-        r.setMessage("失败");
-        return r;
+        Ret ret = new Ret();
+        ret.setSuccess(false);
+        ret.setCode(ResultCode.ERROR);
+        ret.setMessage("失败");
+        return ret;
     }
 
     public Ret success(Boolean success){

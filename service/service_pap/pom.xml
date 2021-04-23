@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>service_pap</artifactId>
+    <artifactId>service_edu</artifactId>
     <!--<dependencies>
         <dependency>
             <groupId>com.june</groupId>
